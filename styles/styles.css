@@ -1,0 +1,16 @@
+/* Top players styls */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns:repeat(1fr, 1fr, 1fr); */
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+}
+.player img{
+  width: 76px;
+  height: 76px;
+   
+}
